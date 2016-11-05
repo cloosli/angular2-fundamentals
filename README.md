@@ -36,3 +36,6 @@ To get more help on the `angular-cli` use `ng --help` or go check out the [Angul
 
 `ng generate component simple-form --inline-template --inline-style`
 same as `ng g c simple-form -it -is`
+
+create new mail service
+`ng g s mail`
