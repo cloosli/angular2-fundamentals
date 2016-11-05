@@ -11,4 +11,8 @@ export class AppComponent {
     @Inject('mail') private mail,
     @Inject('api') private api
   ) {}
+
+  onUpdate(id,text) {
+    this.mail.update(id, text);
+  }
 }
